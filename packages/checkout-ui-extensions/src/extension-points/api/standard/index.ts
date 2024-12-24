@@ -1166,6 +1166,11 @@ export interface CartLineAddChange {
    * The attributes associated with the line item.
    */
   attributes?: Attribute[];
+
+  /**
+   * The selling plan ID associated with the merchandise.
+   */
+  sellingPlanId?: string;
 }
 
 export interface CartLineRemoveChange {
